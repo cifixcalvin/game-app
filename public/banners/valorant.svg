@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="18%" r="72%">
+      <stop offset="0%" stop-color="#ff4d5e" stop-opacity="0.34"/>
+      <stop offset="48%" stop-color="#ff4d5e" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#050706" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070a07"/>
+      <stop offset="58%" stop-color="#090d09"/>
+      <stop offset="100%" stop-color="#0d130d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff4d5e" stop-opacity="0"/>
+      <stop offset="52%" stop-color="#ff4d5e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ff4d5e" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#base)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g opacity="0.18" fill="none" stroke="#ff4d5e" stroke-width="1.5">
+    <path d="M1050 60 L1480 150 L1560 760 L1120 860 Z"/>
+    <path d="M1140 140 L1560 340 L1400 780 L1080 660 Z"/>
+    <path d="M1250 40 L1600 260 M1010 790 L1460 830"/>
+  </g>
+  <path d="M0 760 L420 640 L780 720 L1120 540 L1600 660 L1600 900 L0 900 Z" fill="#040604" fill-opacity="0.72"/>
+  <path d="M0 760 L420 640 L780 720 L1120 540 L1600 660" fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <g opacity="0.10" fill="#ff4d5e">
+    <polygon points="1180,250 1310,180 1440,260 1370,390 1230,360"/>
+    <polygon points="760,110 830,60 890,120 820,170"/>
+  </g>
+  <text x="88" y="720" fill="#ffffff" fill-opacity="0.055" font-family="Arial Black, Arial, sans-serif" font-size="330" font-weight="900" letter-spacing="-16">VAL</text>
+  <g font-family="Arial, sans-serif">
+    <text x="92" y="94" fill="#ff4d5e" fill-opacity="0.9" font-size="17" letter-spacing="8">NEXUS ARENA // TACTICAL FPS</text>
+    <text x="92" y="804" fill="#ffffff" fill-opacity="0.58" font-size="24" letter-spacing="11">VALORANT</text>
+  </g>
+  <path d="M92 116 H560" stroke="#ff4d5e" stroke-opacity="0.45"/>
+  <rect x="88" y="840" width="112" height="3" fill="#ff4d5e" fill-opacity="0.8"/>
+  <rect x="210" y="840" width="36" height="3" fill="#ff4d5e" fill-opacity="0.35"/>
+</svg>
